@@ -3,7 +3,7 @@ import externalLink from "../../assets/external-link.svg"
 import reactCert from "../../assets/reactjs_certificate.png"
 import magentoCert from "../../assets/magento_certificate.png"
 import shopifyCert from "../../assets/shopify_certificate.png"
-import ScrollAnimation from "react-animate-on-scroll";
+import { Flip } from 'react-awesome-reveal';
 
 export function Certificate() {
   const imageStyle = { width: '100%', height: '260px' };
@@ -12,7 +12,7 @@ export function Certificate() {
       <h2>My Certifications</h2>
       <div className="certificates">
 
-        <ScrollAnimation animateIn="flipInX">
+        <Flip direction="horizontal">
           <div className="certificate">
             <header>              
               <div className="certificate-links">                
@@ -31,9 +31,9 @@ export function Certificate() {
             </div>
             <footer> <ul className="tech-list"> <li>JavaScript</li> <li>ReactJS</li> <li>Redux</li><li>Context</li><li>TailwindCSS...</li> </ul> </footer>
           </div>
-        </ScrollAnimation> 
+        </Flip> 
 
-        <ScrollAnimation animateIn="flipInX">
+        <Flip direction="horizontal">
           <div className="certificate">
             <header>              
               <div className="certificate-links">                
@@ -51,9 +51,9 @@ export function Certificate() {
             </div>
             <footer> <ul className="tech-list"> <li>Magento</li> <li>JavaScript</li><li>Knockout</li><li>HTML5</li><li>CSS3...</li> </ul> </footer>
           </div>
-        </ScrollAnimation> 
+        </Flip> 
 
-        <ScrollAnimation animateIn="flipInX">
+        <Flip direction="horizontal">
           <div className="certificate">
             <header>              
               <div className="certificate-links">                
@@ -71,7 +71,7 @@ export function Certificate() {
             </div>
             <footer> <ul className="tech-list"> <li>JavaScript</li> <li>Liquid</li><li>HTML5</li><li>jQuery</li><li>Theme</li><li>CSS3...</li> </ul> </footer>
           </div>
-        </ScrollAnimation>                
+        </Flip>                
 
       </div>
     </Container>
