@@ -1,5 +1,4 @@
 import { Container } from "./styles";
-import githubIcon from "../../assets/github.svg"
 // import DownloadApp from '../../assets/download.webp'
 import externalLink from "../../assets/external-link.svg"
 import musicApp  from "../../assets/projects/sym_music.webp";
