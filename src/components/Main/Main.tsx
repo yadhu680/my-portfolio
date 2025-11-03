@@ -3,6 +3,7 @@ import { Container } from "./styles";
 import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
+import { Project } from "../Project/Project";
 import { Certificate } from "../Certificate/Certificate";
 import magento from "../../assets/magento.svg";
 import shopify from "../../assets/shopify.svg";
@@ -259,6 +260,7 @@ export function Main() {
       <Hero></Hero>
       <About></About>      
       <Certificate></Certificate>
+      <Project></Project>
       <Contact></Contact>
     </Container>
   );
